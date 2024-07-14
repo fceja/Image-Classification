@@ -14,7 +14,8 @@ Creates a neural network to classify handwritten digits from MNIST dataset.
     - Built with python v3.12.4
 3. Clone repo
 4. Open terminal / shell and navigate to project root:
-    - create virtual environment, run:
+
+   i. Create virtual environment, run:
       - Linux / macOS:
         - ```
           python3 -m venv venv
@@ -23,7 +24,7 @@ Creates a neural network to classify handwritten digits from MNIST dataset.
         - ```
           python -m venv venv
           ```
-    - activate virtual environment, run:
+    ii. Activate virtual environment, run:
       - Linux / macOS:
         - ```
           source venv/bin/activate
@@ -32,12 +33,12 @@ Creates a neural network to classify handwritten digits from MNIST dataset.
         - ```
           ./venv/bin/activate
           ```
-      - You should see ```(venv)``` in terminal / shell when successfully initialized
-5. Install dependencies:
+    iii. You should see ```(venv)``` in terminal / shell when successfully initialized
+6. Install dependencies:
     - ```
       pip install -r requirements.txt
       ```
-6. Run:
+7. Run:
     - Linux / macOS:
       - ```
         python3 nn_image_classification.py
