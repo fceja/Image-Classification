@@ -3,8 +3,6 @@ import torch.nn as nn
 import torch.optim as optim
 import torchvision
 import torchvision.transforms as transforms
-
-# from collections import OrderedDict
 from nueral_net import NeuralNet
 
 
